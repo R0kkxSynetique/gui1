@@ -1,0 +1,22 @@
+<script setup>
+
+defineProps({
+    title: String,
+    placeholder: String,
+})
+
+</script>
+
+<template>
+	<div class="flex flex-col">
+		<label :for="title" class="text-xl text-white font-subTitle"
+			>{{ title }}</label
+		>
+		<input
+			type="text"
+			:name="title"
+			:id="title"
+			class="text-white bg-transparent border-b-2 border-b-accPink"
+			:placeholder="placeholder" />
+	</div>
+</template>

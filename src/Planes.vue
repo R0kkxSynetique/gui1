@@ -7,5 +7,7 @@ import Card from "./components/Card.vue";
 		<Card :rc-model-id="2">Etrich Taub</Card>
 		<Card :rc-model-id="3">Extra 300</Card>
 		<Card :rc-model-id="4">A6m Zero</Card>
+		<Card :rc-model-id="5">Super Decathlon</Card>
+		<Card :rc-model-id="6">Hawk hurricane</Card>
 	</div>
 </template>
