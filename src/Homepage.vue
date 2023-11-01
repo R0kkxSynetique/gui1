@@ -6,11 +6,15 @@ import Backgound from "./components/Backgound.vue";
 <template>
 	<Backgound />
     <div class="flex flex-col justify-between w-full max-h-screen min-h-screen">
-        <div class="flex flex-col flex-grow h-full px-6 py-6 overflow-y-scroll bg-red-600 gap-7">
-            <Card rc-model-id="1">Fokker</Card>
-            <Card rc-model-id="1">Fokker</Card>
-            <Card rc-model-id="1">Fokker</Card>
-            <Card rc-model-id="1">Fokker</Card>
+        <div class="flex max-h-full overflow-y-scroll">
+            <div class="flex flex-col w-full h-full px-6 py-6 gap-7">
+                <Card rc-model-id="1">Fokker</Card>
+                <Card rc-model-id="1">Fokker</Card>
+                <Card rc-model-id="1">Fokker</Card>
+                <Card rc-model-id="1">Fokker</Card>
+                <Card rc-model-id="1">Fokker</Card>
+                <Card rc-model-id="1">Fokker</Card>
+            </div>
         </div>
         <Navbar/>
     </div>
