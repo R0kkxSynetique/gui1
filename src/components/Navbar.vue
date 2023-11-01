@@ -4,7 +4,6 @@ import NavbarOption from "./NavbarOption.vue";
 import { ref } from "vue";
 
 const selected = ref("home");
-
 </script>
 
 <template>
@@ -14,7 +13,7 @@ const selected = ref("home");
 			<div class="flex w-full gap-5 justify-evenly">
 				<NavbarOption
 					title="home"
-                    @click="selected = 'home'"
+					@click="selected = 'home'"
 					:selected="selected == 'home'"
 					color="bg-homeColor"
 					><Icon
@@ -23,14 +22,14 @@ const selected = ref("home");
 				/></NavbarOption>
 				<NavbarOption
 					title="planes"
-                    @click="selected = 'planes'"                 
+					@click="selected = 'planes'"
 					:selected="selected == 'planes'"
 					color="bg-planesColor"
 					><Icon icon="ph:airplane" class="w-12 h-12 text-white"
 				/></NavbarOption>
 				<NavbarOption
 					title="map"
-                    @click="selected = 'map'"
+					@click="selected = 'map'"
 					:selected="selected == 'map'"
 					color="bg-mapColor"
 					><Icon
@@ -39,7 +38,7 @@ const selected = ref("home");
 				/></NavbarOption>
 				<NavbarOption
 					title="settings"
-                    @click="selected = 'settings'"
+					@click="selected = 'settings'"
 					:selected="selected == 'settings'"
 					color="bg-settingColor"
 					><Icon
