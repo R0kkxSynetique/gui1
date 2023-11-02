@@ -4,7 +4,9 @@ import { createRouter, createWebHistory } from "vue-router";
 import App from "./main.vue";
 import rcModels from "../storage/app/RcModel/data.json";
 
-const allPlanesSorted = [...rcModels].sort((a, b) => a.name.localeCompare(b.name));
+const allPlanesSorted = [...rcModels].sort((a, b) =>
+	a.name.localeCompare(b.name)
+);
 
 const reduced = [...rcModels];
 while (reduced.length > 4) {
@@ -15,6 +17,7 @@ const homePlanes = reduced;
 
 const plane = rcModels.find((plane) => plane.id === 1);
 
+// ! unable to get dynamically the rcModel from the route params
 const router = createRouter({
 	history: createWebHistory(),
 	routes: [
@@ -43,16 +46,16 @@ const router = createRouter({
 			path: "/map",
 			component: () => import("./Planes.vue"),
 		},
-        {
-            path : "/planes/:id",
-            component: () => import("./Plane.vue"),
-            props: {rcModel: plane},
-        },
-        {
-            path : "/planes/:id/edit",
-            component: () => import("./PlaneEdit.vue"),
-            props: {rcModel: plane},
-        }
+		{
+			path: "/planes/:id",
+			component: () => import("./Plane.vue"),
+			props: { rcModel: plane },
+		},
+		{
+			path: "/planes/:id/edit",
+			component: () => import("./PlaneEdit.vue"),
+			props: { rcModel: plane },
+		},
 	],
 });
 
