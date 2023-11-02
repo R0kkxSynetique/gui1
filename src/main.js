@@ -47,6 +47,11 @@ const router = createRouter({
             path : "/planes/:id",
             component: () => import("./Plane.vue"),
             props: {rcModel: plane},
+        },
+        {
+            path : "/planes/:id/edit",
+            component: () => import("./PlaneEdit.vue"),
+            props: {rcModel: plane},
         }
 	],
 });

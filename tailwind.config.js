@@ -23,6 +23,7 @@ module.exports = {
 				accPurple: "#7E64FF",
 				error: "#FF4E4E",
 				secPurple: "#3C1F7B",
+				valid: "#00A65F",
 			},
 		},
 	},

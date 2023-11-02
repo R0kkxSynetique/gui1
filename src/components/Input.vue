@@ -3,13 +3,16 @@
 defineProps({
     title: String,
     placeholder: String,
+    row: Boolean,
+    label: Boolean,
+    value: String
 })
 
 </script>
 
 <template>
-	<div class="flex flex-col">
-		<label :for="title" class="text-xl text-white font-subTitle"
+	<div class="flex" :class="row ? 'flex-row' : 'flex-col'">
+		<label v-if="label" :for="title" class="text-xl text-white font-subTitle"
 			>{{ title }}</label
 		>
 		<input
@@ -17,6 +20,7 @@ defineProps({
 			:name="title"
 			:id="title"
 			class="text-white bg-transparent border-b-2 border-b-accPink"
-			:placeholder="placeholder" />
+			:placeholder="placeholder"
+            :value="value" />
 	</div>
 </template>

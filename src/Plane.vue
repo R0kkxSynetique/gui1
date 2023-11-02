@@ -95,18 +95,18 @@ const openDelete = ref(false);
 											</div>
 										</div>
 										<div
-											class="flex flex-row-reverse items-center justify-center px-4 py-3 [&>*]:rounded-2xl gap-4 [&>*]:py-4">
-											<RouterLink
-												class="flex items-center justify-center w-full text-white bg-error"
-												to="/home">
-												Delete
-											</RouterLink>
+											class="flex items-center justify-center px-4 py-3 [&>*]:rounded-2xl gap-4 [&>*]:py-4">
 											<button
 												type="button"
 												class="flex items-center justify-center w-full text-white bg-settingColor"
 												@click="openDelete = false">
 												Cancel
 											</button>
+                                            <RouterLink
+												class="flex items-center justify-center w-full text-white bg-error"
+												to="/home">
+												Delete
+											</RouterLink>
 										</div>
 									</DialogPanel>
 								</TransitionChild>
