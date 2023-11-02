@@ -41,7 +41,7 @@ const router = createRouter({
 		},
 		{
 			path: "/map",
-			component: App,
+			component: () => import("./Planes.vue"),
 		},
         {
             path : "/planes/:id",

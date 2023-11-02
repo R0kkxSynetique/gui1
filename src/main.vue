@@ -6,10 +6,8 @@
 
 <template>
     <Backgound />
-    <div class="flex flex-col w-full max-h-screen min-h-screen">
-        <div class="flex flex-grow max-h-full min-h-full overflow-y-scroll">
-            <RouterView />
-        </div>
+    <div class="flex flex-col justify-between w-full max-h-screen min-h-screen">
+        <RouterView />
         <Navbar/>
     </div>
 </template>
