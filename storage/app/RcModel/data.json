@@ -1,26 +1,201 @@
 [
 	{
 		"name": "Fokker D. VII",
-		"id": 1
+		"id": 1,
+		"wingspan": 3.08,
+		"length": 2.58,
+		"height": 800,
+		"propeller": "32x12",
+		"weight": 16.8,
+		"description": "Morem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.",
+		"engines": [
+			{
+				"name": "Fiala b2 120cc",
+				"stroke": 4,
+				"type": "gas",
+				"fuel": "95 SP 3.3%",
+				"weight": 3.45
+			}
+		],
+		"batteries": [
+			{
+				"name": "Gens Ace",
+				"capacity": 3200,
+				"cRate": 30,
+				"cells": 2
+			}
+		]
 	},
 	{
 		"name": "Etrich Taub",
-		"id": 2
+		"id": 2,
+		"wingspan": 3.08,
+		"length": 2.58,
+		"height": 800,
+		"propeller": "32x12",
+		"Weight": 16.8,
+		"description": "Morem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.",
+		"engines": [
+			{
+				"name": "Fiala b2 120cc",
+				"stroke": 4,
+				"type": "gas",
+				"fuel": "95 SP 3.3%",
+				"weight": 3.45
+			},
+            {
+				"name": "Fiala b2 120cc",
+				"stroke": 4,
+				"type": "gas",
+				"fuel": "95 SP 3.3%",
+				"weight": 3.45
+			}
+		],
+		"batteries": [
+			{
+				"name": "Gens Ace",
+				"capacity": 3200,
+				"cRate": 30,
+				"cells": 2
+			}
+		]
 	},
 	{
 		"name": "Extra 300",
-		"id": 3
+		"id": 3,
+		"wingspan": 3.08,
+		"length": 2.58,
+		"height": 800,
+		"propeller": "32x12",
+		"Weight": 16.8,
+		"description": "Morem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.",
+		"engines": [
+			{
+				"name": "Fiala b2 120cc",
+				"stroke": 4,
+				"type": "gas",
+				"fuel": "95 SP 3.3%",
+				"weight": 3.45
+			}
+		],
+		"batteries": [
+			{
+				"name": "Gens Ace",
+				"capacity": 3200,
+				"cRate": 30,
+				"cells": 2
+			},
+            {
+				"name": "Gens Ace",
+				"capacity": 3200,
+				"cRate": 30,
+				"cells": 2
+			}
+		]
 	},
 	{
 		"name": "A6m Zero",
-		"id": 4
+		"id": 4,
+		"wingspan": 3.08,
+		"length": 2.58,
+		"height": 800,
+		"propeller": "32x12",
+		"Weight": 16.8,
+		"description": "Morem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.",
+		"engines": [
+			{
+				"name": "Fiala b2 120cc",
+				"stroke": 4,
+				"type": "gas",
+				"fuel": "95 SP 3.3%",
+				"weight": 3.45
+			},
+            {
+				"name": "Fiala b2 120cc",
+				"stroke": 4,
+				"type": "gas",
+				"fuel": "95 SP 3.3%",
+				"weight": 3.45
+			}
+		],
+		"batteries": [
+			{
+				"name": "Gens Ace",
+				"capacity": 3200,
+				"cRate": 30,
+				"cells": 2
+			},
+            {
+				"name": "Gens Ace",
+				"capacity": 3200,
+				"cRate": 30,
+				"cells": 2
+			}
+		]
 	},
 	{
 		"name": "Super Decathlon",
-		"id": 5
+		"id": 5,
+		"wingspan": 3.08,
+		"length": 2.58,
+		"height": 800,
+		"propeller": "32x12",
+		"Weight": 16.8,
+		"description": "Morem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.",
+		"engines": [],
+		"batteries": []
 	},
 	{
 		"name": "Hawk hurricane",
-		"id": 6
+		"id": 6,
+		"wingspan": 3.08,
+		"length": 2.58,
+		"height": 800,
+		"propeller": "32x12",
+		"Weight": 16.8,
+		"description": "Morem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.",
+		"engines": [
+			{
+				"name": "Fiala b2 120cc",
+				"stroke": 4,
+				"type": "gas",
+				"fuel": "95 SP 3.3%",
+				"weight": 3.45
+			},
+            {
+				"name": "Fiala b2 120cc",
+				"stroke": 4,
+				"type": "gas",
+				"fuel": "95 SP 3.3%",
+				"weight": 3.45
+			},
+            {
+				"name": "Fiala b2 120cc",
+				"stroke": 4,
+				"type": "gas",
+				"fuel": "95 SP 3.3%",
+				"weight": 3.45
+			}
+		],
+		"batteries": [
+			{
+				"name": "Gens Ace",
+				"capacity": 3200,
+				"cRate": 30,
+				"cells": 2
+			},
+            {
+				"name": "Gens Ace",
+				"capacity": 3200,
+				"cRate": 30,
+				"cells": 2
+			},
+            {
+				"name": "Gens Ace",
+				"capacity": 3200,
+				"cRate": 30,
+				"cells": 2
+			}
+		]
 	}
 ]
