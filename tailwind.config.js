@@ -19,6 +19,7 @@ module.exports = {
 				mapColor: "#C95A3A",
 				settingColor: "#4C5171",
 				accPink: "#C68AFF",
+				pink: "#9A39AB",
 			},
 		},
 	},
